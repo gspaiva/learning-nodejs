@@ -8,6 +8,7 @@ function send404Response(response){
     response.write("Error 404: page not found");
     response.end();
 }
+
 //handle user requests
 function onRequest(request,response){
 
